@@ -1,7 +1,8 @@
-#include "str.h"
+#include "main.h"
 
 /**
- *  * main - Prints _putchar as a message.
+ * * Description: A program that prints '_putchar'.
+ *  * main - Prints '_putchar' using the local header file.
  *    * Return: Always 0 (Success)
  **/
 
