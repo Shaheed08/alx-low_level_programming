@@ -2,7 +2,7 @@
 
 /**
  * * jack_bauer(void) - Prints every minute
- * * of the day of Jack Bauer.
+ * * of the day.
  * * Return: no return.
  **/
 
