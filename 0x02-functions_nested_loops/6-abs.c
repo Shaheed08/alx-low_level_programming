@@ -3,10 +3,10 @@
 /**
  * * _abs - Computes the absolute value of an integer.
  * * @i: input number as an integer.
- * * return: absolute value.
+ * * Return: absolute value.
  **/
 
-int _abs(int i)
+int _abs(int i);
 
 {
 	if (i >= 0)
