@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * * _putchar: A program that prints '_putchar'.
  *  * main- Prints '_putchar' using the local header file.
+ *  * _putchar: A program that prints '_putchar'.
  *    * Return: Always 0 (Success)
  **/
 
