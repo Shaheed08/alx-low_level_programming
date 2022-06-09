@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * * jack_bauer(void) - Prints every minute
+ * * void jack_bauer(void)- Prints every minute
  * * of the day.
  * * Return: no return.
  **/
 
-void jack_bauer(void);
+void jack_bauer(void)
 
 {
 	int a, b, c, d;
