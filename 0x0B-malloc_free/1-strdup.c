@@ -5,7 +5,7 @@
  * _strdup - returns a pointer to a newly
  * allocated space in memory.
  * @str: string.
- * Return: pointer of an array of chars.
+ * Return: pointer of an array of chars
  */
 
 char *_strdup(char *str)
@@ -13,12 +13,12 @@ char *_strdup(char *str)
 	char *strout;
 	unsigned int i, j;
 
-	if (strout == NULL)
+	if (str == NULL)
 		return (NULL);
 
-	for (i = 0; strout[i] != '\0'; i++)
-
+	for (i = 0; str[i] != '\0'; i++)
 		;
+
 	strout = (char *)malloc(sizeof(char) * (i + 1));
 
 	if (strout == NULL)
