@@ -1,0 +1,4 @@
+all: exec_file
+
+exec_file:
+	gcc main.c school.c -o school
