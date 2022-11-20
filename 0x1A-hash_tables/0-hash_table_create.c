@@ -18,7 +18,7 @@ hash_table_t *hash_table_create(unsigned long int size)
 	if (new_table == NULL)
 		return (NULL);
 	new_table->size = size;
-	new_table->array = malloc(sizeof(hash_table_t));
+	new_table->array = malloc(sizeof(hash_table_t) * size);
 	if (new_table->array == NULL)
 		return (NULL);
 	memset(new_table->array, 0, sizeof(hash_table_t));
